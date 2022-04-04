@@ -7,6 +7,6 @@ def home(request):
     return render(request, 'blog/home.html', {'blog_posts': blog_posts})
 
 
-def detail(request, blog_id):
+def blog_post(request, blog_id):
     blog = get_object_or_404(BlogPost, pk=blog_id)
     return render(request, 'blog/blog_post.html', {'blog': blog})
