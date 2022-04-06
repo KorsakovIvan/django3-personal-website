@@ -1,10 +1,10 @@
-__pycache__/
-/website/__pycache__/
-/password_generator/__pycache__/
-/blog/__pycache__/
-/apps/website/static/
-*.logg
+*.log
 *.pyc
 *.pot
 local_settings.py
+__pycache__/
+/apps/website/__pycache__/
+/apps/password_generator/__pycache__/
+/apps/blog/__pycache__/
 /static/
+/apps/website/static/
