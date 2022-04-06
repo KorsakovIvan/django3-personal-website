@@ -6,5 +6,5 @@ __pycache__/
 /apps/website/__pycache__/
 /apps/password_generator/__pycache__/
 /apps/blog/__pycache__/
-/static/
+/static_root/
 /apps/website/static/
