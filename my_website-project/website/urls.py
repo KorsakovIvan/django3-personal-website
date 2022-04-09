@@ -26,6 +26,7 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('blog/', include('apps.blog.urls')),
     path('password_generator/', include('apps.password_generator.urls')),
+    path('todo/', include('apps.todo.urls')),
 ]
 
 
